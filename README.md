@@ -1,30 +1,20 @@
 # Outil de pilotage — Sensibilisation au phishing avec GoPhish (100% gratuit)
 
-Cet outil pilote **GoPhish** (https://getgophish.com), un framework open
+Cet outil pilote GoPhish (https://getgophish.com), un framework open
 source de simulation de phishing conçu pour la sensibilisation en entreprise.
 Aucune dépendance à Microsoft, aucun abonnement requis.
 
-## Pourquoi GoPhish
 
 - Open source, gratuit, code source auditable (Go).
 - Utilisé par de nombreuses équipes sécurité et pentesters dans un cadre légal.
-- Auto-hébergé : tes données (résultats de campagne, identifiants "test"
-  saisis par les employés) restent sur ton serveur, sous ton contrôle.
-- API REST complète, ce script l'automatise.
 
-## ⚠️ Cadre d'usage obligatoire
 
 - N'utilise ceci que sur ta propre organisation, avec l'accord explicite
   de la direction / RH / RSSI.
 - Ne cible jamais des personnes extérieures à ton organisation.
 - Informe les employés a posteriori de l'objectif pédagogique.
 - Ne stocke jamais de vrais mots de passe : configure tes pages pour capturer
-  uniquement le fait qu'une donnée a été soumise (`capture_passwords=False`
-  déjà appliqué dans ce script).
-- Vérifie la légalité de ce type de test dans ta juridiction (en France,
-  encadrement par le règlement intérieur / CSE recommandé, information de la
-  CNIL si des données personnelles sont traitées).
-
+- Vérifie la légalité de ce type de test dans ta juridiction
 ## Étape 1 — Installer GoPhish (serveur)
 
 ```bash
